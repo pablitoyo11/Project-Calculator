@@ -1,0 +1,60 @@
+body
+{
+    font-family: "Helvetica", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.calculator {
+
+    max-width: 600px;
+    max-height: 1200px;
+    background-color: rgb(85, 85, 85);
+    margin: 8px;
+    padding: 8px;
+}
+
+.calculator>*{
+    font-size: 25px;
+    margin: 2%;
+    padding: 2%;
+    border: 1%;
+    
+}
+.calculator>.display  {
+    background-color: rgb(67, 112, 49);
+    text-align: right;
+    padding-right: 6%;
+    font-size: 30px;
+
+
+}
+
+.calculator>.buttons{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: auto;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px;
+    margin: 10px;
+    border-width: 5px;
+    border-color: rgb(97, 97, 179);
+    border-style: solid;
+    background-color: rgb(228, 228, 228);
+}
+
+.calculator>.buttons>div{
+    display: flex;
+    flex: 1 1 20%;
+    justify-content: center;
+    align-items:center;
+    margin: 2px;
+    border-width: 2px;
+    border-color: rgb(92, 92, 92);
+    border-style: solid;
+}
