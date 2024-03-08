@@ -11,11 +11,15 @@ function operatorSelected (event){
 }
 
 function numberSelected (event){
-    if (this.id == "." && (display.innerHTML).includes(".")) {
+    if (this.id == "." && display.innerText.includes(".")) {
         alert("can't add two commas in the same number");
         return;
     }
-    display.innerText === "_" ? display.innerHTML=this.id : display.innerHTML=display.innerText+this.id
+    if (this.id == "." && display.innerText == "_") {
+        display.innerHTML=0+this.id;
+        return;
+    }
+    display.innerText == "_" ? display.innerHTML=this.id : display.innerHTML=display.innerText+this.id;
     /* //Replaced if statement with ternary operator
     if (display.innerText == "_")
     {display.innerHTML=this.id}
