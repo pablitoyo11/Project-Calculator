@@ -5,7 +5,8 @@ body
     width: 400px;
     margin: auto;
     text-align: center;
-
+    background: linear-gradient(rgb(222, 235, 197), rgb(59, 58, 58));
+    background-attachment: fixed;
 }
 
 .calculator {
@@ -25,7 +26,8 @@ body
     
 }
 .calculator>.display  {
-    background-color: rgb(67, 112, 49);
+    background: linear-gradient(to left,rgb(57, 141, 24), rgb(126, 226, 89));
+    background-attachment: fixed;
     text-align: right;
     padding-right: 6%;
     font-size: 30px;
