@@ -31,8 +31,6 @@ body
     text-align: right;
     padding-right: 6%;
     font-size: 30px;
-
-
 }
 
 .calculator>.buttons{
@@ -59,4 +57,9 @@ body
     border-width: 2px;
     border-color: rgb(92, 92, 92);
     border-style: solid;
+}
+
+.calculator>.buttons>div.active{
+    color: rgb(0, 119, 255);
+    background-color: rgba(0, 128, 0, 0.438);
 }
